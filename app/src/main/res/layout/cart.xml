@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="320dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Code:" />
+
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="320dp"
+        android:textSize="32dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="320dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm code :" />
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="320dp"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:digits="0123456789"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_gravity="right"
+        android:textColor="@color/black"
+        />
+</LinearLayout>

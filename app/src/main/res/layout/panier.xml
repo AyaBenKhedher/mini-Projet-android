@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#e3e3e3"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Buy_now"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_height="150dp"
+            android:layout_width="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/prod"
+            app:riv_corner_radius="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jpanese Cherry Blossom"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="free_delivery"
+                android:textColor="@color/browser_actions_title_color"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_error"
+                android:textSize="16sp"
+                android:text="$ 17.00"
+                android:textStyle="bold"
+                />
+    </LinearLayout>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_heart"
+        android:backgroundTint="@color/browser_actions_title_color"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="25dp"
+        android:text="add_to_favorites"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="?android:attr/selectableItemBackground"
+android:clickable="true"
+android:focusable="true"
+android:gravity="center_vertical"
+android:orientation="horizontal"
+android:padding="12dp">
+
+<ImageView
+android:layout_width="25dp"
+android:layout_height="25dp"
+android:layout_marginStart="10dp"
+android:contentDescription="@string/app_name"
+android:src="@drawable/ic_share"
+android:backgroundTint="@color/browser_actions_title_color"
+    />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="15dp"
+android:layout_marginEnd="25dp"
+android:text="Share_product_via...."
+android:textColor="@color/black"
+android:textSize="15sp"
+    />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Buy"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>
